@@ -14,6 +14,9 @@ echo sss%id%
 echo .. Deleting Chrome Registry
 REG DELETE "HKCU\Software\Google\Chrome\NativeMessagingHosts\%id%" /f
 
+echo .. Deleting Edge Registry
+REG DELETE "HKCU\Software\Microsoft\Edge\NativeMessagingHosts\%id%" /f
+
 echo .. Deleting Firefox Registry
 for %%f in ("%LocalAPPData%") do SET SHORT_PATH=%%~sf
 REG DELETE "HKCU\SOFTWARE\Mozilla\NativeMessagingHosts\%id%" /f

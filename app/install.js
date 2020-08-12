@@ -25,6 +25,10 @@ console.log('.. Writting to Chrome Registry');
 console.log(`.. Key: HKCU\\Software\\Google\\Chrome\\NativeMessagingHosts\\${id}`);
 exec(`REG ADD "HKCU\\Software\\Google\\Chrome\\NativeMessagingHosts\\${id}" /ve /t REG_SZ /d "%LocalAPPData%\\${id}\\manifest-chrome.json" /f`);
 
+console.log('.. Writting to Edge Registry');
+console.log(`.. Key: HKCU\\Software\\Microsoft\\Edge\\NativeMessagingHosts\\${id}`);
+exec(`REG ADD "HKCU\\Software\\Microsoft\\Edge\\NativeMessagingHosts\\${id}" /ve /t REG_SZ /d "%LocalAPPData%\\${id}\\manifest-chrome.json" /f`);
+
 console.log(`.. Writting to Firefox Registry`);
 console.log(`.. Key: HKCU\\SOFTWARE\\Mozilla\\NativeMessagingHosts\\${id}`);
 exec(`REG ADD "HKCU\\SOFTWARE\\Mozilla\\NativeMessagingHosts\\${id}" /ve /t REG_SZ /d "%LocalAPPData%\\${id}\\manifest-firefox.json" /f`);
