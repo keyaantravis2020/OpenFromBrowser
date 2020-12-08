@@ -6,6 +6,16 @@ exports.id = 'net.freefinancetools.openfrombrowser';
 exports.ids = {
   "chrome": [
     "pnhphphdmklmlkhfajfppfgmpfpepohd", // Local Test ID
+    "hgfbigeomjlaahldcoilagphholnmhlc",
+    "lpnkpolejfdnilfdcfolejgclceokoel",
+    "oimgeamnldoknegijnamobdaohbegjce",
+    "kdpmhmcieiaddjoegooocahccoegbemo",
+    "kbonopecbfhedlfpaphndlaoppmdppim",
+    "clpbjnhnklabamkibpaafmmfhodjpmhl",
+    "lggbkhcdojaliofkffiehndnmppnoonl",
+    "dkamgdnmjlhepannfolgddabkpjjlnjp",
+    "jccgopclldmhpgmcmgdmehkljpacdapm",
+    "hpgaelbckjgnjpmfphpjpbikpelelopb",
   ],
   "firefox": [
     
